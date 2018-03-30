@@ -9,9 +9,13 @@ Do a word count on the yelp reviews dataset.
 ## Data
 
 To get the data:
-```
-curl <url>
-tar -xvf 
+```bash
+# download and untar
+curl -O https://storage.googleapis.com/data-processing-libraries-demo/reviews.tar.gz
+tar -xvf reviews.tar.gz
+
+# download the .json file directly if you don't mind waiting a few more minutes
+curl -O https://storage.googleapis.com/data-processing-libraries-demo/review.json
 ```
 
 The data is in json format and here are 2 sample data points:
